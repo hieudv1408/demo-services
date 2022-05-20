@@ -22,6 +22,8 @@ jobs:
     environment: dev
     env:
       KEY1: '${{ secrets.KEY1 }}'
+      DOCKER_HUB_USERNAME: '${{ secrets.DOCKER_HUB_USERNAME }}'
+      DOCKER_HUB_PASSWORD: '${{ secrets.DOCKER_HUB_PASSWORD }}'
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
