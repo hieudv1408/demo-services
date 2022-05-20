@@ -10,7 +10,7 @@ app.listen(3001, () => {
 
 app.get("/", async (req, res) => {
   res.send({
-    serviceName: "zalo-store-service",
+    serviceName: "sct-service",
     version: '1.0.0'
   })
 });
