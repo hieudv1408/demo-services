@@ -11,6 +11,6 @@ app.listen(3001, () => {
 app.get("/", async (req, res) => {
   res.send({
     serviceName: "sct-service",
-    version: '1.0.6'
+    version: '1.0.7'
   })
 });
